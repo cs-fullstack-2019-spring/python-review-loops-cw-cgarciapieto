@@ -3,6 +3,7 @@ def main():
 
 
 
+
 # exercise1
 # Python program that prints all the numbers from 0 to 6 except 3 and 6.
 # with an expected output of 1245
@@ -43,9 +44,12 @@ def main():
 
     #Python program that accepts a sequence of lines (blank line to terminate) as input and prints the lines as output after User enters a blank line to end.
         def exercise3():
-            user = input("type a sentence")
 
-            print(user)
+            text = ""
+
+            text += input("type a sentence" + "/n")
+
+            print(text)
 
 
 if __name__ == '__main__':
